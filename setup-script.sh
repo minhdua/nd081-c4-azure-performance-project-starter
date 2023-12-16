@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Variables
-resourceGroup="minhdua-rs"
+resourceGroup="minhdua02-rs"
 location="westus"
 osType="Ubuntu2204"
-vmssName="minhdua-vmss"
-adminName="minhduaadmin"
-storageAccount="minhduadiag$RANDOM"
+vmssName="udacity-vmss"
+adminName="udacityadmin"
+storageAccount="udacitydiag$RANDOM"
 bePoolName="$vmssName-bepool"
 lbName="$vmssName-lb"
 lbRule="$lbName-network-rule"
