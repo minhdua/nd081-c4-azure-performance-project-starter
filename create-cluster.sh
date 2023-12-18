@@ -24,11 +24,11 @@ az aks create \
 --generate-ssh-keys
 
 # For Cloud Lab users
-az aks create \
---resource-group $resourceGroup \
---name $clusterName \
---node-count 1 \
---generate-ssh-keys
+# az aks create \
+# --resource-group $resourceGroup \
+# --name $clusterName \
+# --node-count 1 \
+# --generate-ssh-keys
 
 # For Cloud Lab users
 # This command will is a substitute for "--enable-addons monitoring" option in the "az aks create"
